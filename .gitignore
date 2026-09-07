@@ -1,0 +1,22 @@
+# Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Vector store / generated outputs
+dbv1/
+dbv2/
+chunks_export.json
+rag_results.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
